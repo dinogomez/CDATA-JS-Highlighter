@@ -1,0 +1,31 @@
+{
+  "name": "cdata-js-highlighter",
+  "displayName": "CDATA JS Highlighter",
+  "description": "Syntax Highlighting for embedded JavaScript inside CDATA tags.",
+  "version": "0.0.1",
+  "publisher": "PaulGomez",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dinogomez/CDATA-JS-Highlighter"
+},
+  "contributes": {
+    "languages": [{
+      "id": "xml",
+      "aliases": ["cdata-js", "xml"],
+      "extensions": [".xml"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "xml",
+      "scopeName": "source.xml",
+      "path": "./syntaxes/xml.tmLanguage.json"
+    }]
+  }
+}
