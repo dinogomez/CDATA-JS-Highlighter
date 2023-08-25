@@ -11,6 +11,12 @@
 > ✅ With Syntax Highlighting
 ![Alt text](images/snapshot.png)
 
+## Installation 
+
+You can download the extension from the `Extensions(Ctrl+Shift+X)` tab in Visual Studio Code or directly from Visual Studio Marketplace, link attached below.
+
+[Download CDATA JS Highlighter](https://marketplace.visualstudio.com/items?itemName=PaulGomez.cdata-js-highlighter)
+
 ## About
 
 By default, many editors treat XML files containing JavaScript code inside CDATA tags as pure XML, often overlooking the embedded JavaScript. This extension elevates the XML syntax highlighting experience by intelligently identifying JavaScript code within CDATA tags and providing dedicated highlighting. Enjoy improved code readability and a more seamless workflow
