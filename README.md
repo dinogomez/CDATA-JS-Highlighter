@@ -1,4 +1,3 @@
-![Alt text](images/banner.png)
 <div align="center">
   <h3>
     Highlight Your CDATA Embedded JavaScript

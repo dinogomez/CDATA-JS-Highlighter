@@ -2,7 +2,7 @@
   "name": "cdata-js-highlighter",
   "displayName": "CDATA JS Highlighter",
   "description": "Syntax Highlighting for embedded JavaScript inside CDATA tags.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "PaulGomez",
   "icon": "images/icon.png",
   "engines": {
