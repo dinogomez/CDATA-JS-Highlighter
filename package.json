@@ -2,7 +2,7 @@
   "name": "cdata-js-highlighter",
   "displayName": "CDATA JS Highlighter",
   "description": "Syntax Highlighting for embedded JavaScript inside CDATA tags.",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "publisher": "PaulGomez",
   "icon": "images/icon.png",
   "engines": {
@@ -18,7 +18,7 @@
   "contributes": {
     "languages": [{
       "id": "xml",
-      "aliases": ["cdata-js", "xml"],
+      "aliases": ["cdata", "cdata js", "xml"],
       "extensions": [".xml"],
       "configuration": "./language-configuration.json"
     }],
