@@ -1,3 +1,10 @@
+**Installation**
+<br>
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+<br>
+`ext install PaulGomez.cdata-js-highlighter`
+<br>
+
 <div align="center">
   <h3>
     Highlight Your CDATA Embedded JavaScript
