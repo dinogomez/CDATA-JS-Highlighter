@@ -13,36 +13,13 @@
             },
             "patterns": [
                 {
-                    "include": "#javascriptInsideCDATA"
-                }
-            ]
-        },
-        {
-            "include": "#xmlOutsideCDATA"
-        }
-    ],
-    "repository": {
-        "javascriptInsideCDATA": {
-            "begin": "(?<=<!\\[CDATA\\[)[^\\]]*\\n?",
-            "beginCaptures": {
-                "0": { "name": "source.js.embedded.xml" }
-            },
-            "end": "(?=\\]\\]>)",
-            "patterns": [
-                {
                     "include": "source.js"
                 }
             ]
         },
-        "xmlOutsideCDATA": {
-            "begin": "(?<=^|>)(?!(<!\\[CDATA\\[))",
-            "end": "(?=(<!\\[CDATA\\[|]]>))",
-            "patterns": [
-                {
-                    "include": "text.html.basic"
-                }
-            ]
+        {
+            "include": "text.xml"
         }
-    },
+    ],
     "scopeName": "source.xml"
 }
